@@ -1,0 +1,103 @@
+.title-safe  {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #58506B;
+}
+
+.IMG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 305px;
+    height: 221px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 90px;
+    max-width: 120px;
+    height: 40px;
+}
+
+.Vector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 120px;
+    max-width: 330px;
+    height: 115px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+.title-safe-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 190px;
+    height: 33px;
+    margin-left: 40px;
+    margin-top: 140px;
+    color: white;
+    position: absolute;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+
+.title-safe-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 287px;
+    height: 32px;
+    margin-left: 40px;
+    margin-top: 180px;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
+
+.Dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45px;
+    height: 45px;
+    margin-left: 38px;
+    margin-top: 230px;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}

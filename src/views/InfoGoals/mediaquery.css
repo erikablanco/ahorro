@@ -1,0 +1,87 @@
+@media (min-width: 375px) {
+    .container-01 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        margin: 24px;  
+    }
+    
+    .main-product-left, .main-product-rigth {
+        display: grid;
+        grid-template-columns: 2fr; 
+        justify-items: stretch;   
+        background-color:#FFFFFF;
+        max-width: 158px;
+        height: 202px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0px 8px 20px #F0F8FF;           
+    }
+
+    .main-product-rigth{
+        max-width: 170px;
+        height: 202px;
+        padding: 15px;
+    }
+
+    .product-titleone, .product-titletwo{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #817699;
+    }
+    
+    .product-titletwo{        
+        margin-top: 20px;
+    }    
+
+    .donut20, .donut0{
+        display: flex;        
+        justify-content:flex-end;
+        align-items: flex-end;
+        max-width: 50px;
+        height: 50px;  
+    }
+
+    .value-1,.value-3{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-end;        
+        font-size: 12px;
+        font-weight: 600;
+        height: 16px;        
+        position: absolute;
+        margin: -40px 4px 20px 60px;        
+    }
+    
+    .value-3{
+        margin: 125px 3px 4px 55px;
+    }
+
+    .value-2, .value-4{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-end;
+        font-size: 10px;
+        font-weight: 400;
+        height: 16px;
+        position: absolute;
+        margin: -25px 4px 27px 60px;  
+        
+    }
+
+    .value-4{
+        margin: 140px 0px 27px 55px;
+    }
+       
+}

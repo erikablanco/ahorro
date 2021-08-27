@@ -1,0 +1,116 @@
+.card__footer{
+    display: flex;
+    justify-content: center;
+    width: 327px;
+    height: 85px;
+    background: white;
+    font-size: 10px;
+    margin-top: 36px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 8px 20px var(--gree-footer);   
+}
+
+.sticky {	
+    position: -webkit-sticky;	
+    position: sticky;	
+    top: 0;
+}
+.footer1 {
+    width: 360px;
+    color:var(--strong-black);
+    position: absolute;
+    top: 50px;
+    left:30px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+}
+.card__home {
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+.footer2 {
+    width: 360px;
+    color:var(--strong-black);
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+}
+.card__history{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top:  20px;
+    left: 95px;
+}
+.footer3 {
+    width: 360px;
+    color:var(--strong-black);
+    position: absolute;
+    top: 50px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.card__plusmenu {
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: -20px;
+    left: 139px;
+}   
+.footer4 {
+    width: 360px;
+    color:var(--strong-black);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;    
+}
+.card__perfile {
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 216px;   
+}
+.footer5 {
+    width: 180px;
+    color:var(--strong-black);
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: left;
+}
+.card__pluss{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 275px;   
+}

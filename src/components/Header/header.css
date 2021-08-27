@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8fc;
+    
+}
+
+.clock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px 14px  0px  21px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #26232C;
+}
+
+.signal .wifi .battery {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    color: #26232C; 
+    
+}
+
+.signal{
+    margin-left: 155px;
+    
+    
+}
+
+.wifi{
+    padding: 4px;
+}
+
+.battery {
+    margin-right:21px;    
+    
+}

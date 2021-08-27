@@ -1,0 +1,66 @@
+.main-card-safe {
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 327px;
+    height: 400px;
+    background: white;
+    margin-top: 320px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 8px 20px var(--gree-footer);
+    font-family: Open Sans;
+    color: #58506B;
+
+}
+.title-safe--1, .title-safe--2, .title-safe--3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 202px;
+    height: 21px;
+    padding: 18px;
+    color: #817699;
+    font-weight: 600;
+    font-size: 14px;   
+}
+
+
+.text-1, .text-2, .text-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 202px;
+    padding: 18px;
+    height: 42px;
+    color: #817699;
+    font-weight: 400;
+    font-size: 10px;
+
+}
+.Divider{
+    max-width: 275px;
+}
+
+.IMG5, .IMG4, .IMG3{
+    display: grid;
+    position: absolute;
+    max-width: 68px;
+    height: 68px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+
+
+
+
